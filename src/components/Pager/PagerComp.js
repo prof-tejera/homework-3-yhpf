@@ -32,7 +32,7 @@ const PagerComp = ({numberOfPages, ...props}) => {
       <li
         key={number}
         onClick={handleClick}
-        className={currentPage == number ? "active" : null}
+        className={currentPage === number ? "active" : null}
       >
         <Button className="pagernumbers" id={number} text={number}/ >
       </li>
@@ -45,7 +45,7 @@ const PagerComp = ({numberOfPages, ...props}) => {
         <li>
           <button
             onClick={handlePrevbtn}
-            disabled={currentPage == pages[0] ? true : false}
+            disabled={currentPage === pages[0] ? true : false}
             className="pagerarrow"
           >
             <i className="fas fa-angle-left"></i>
@@ -57,7 +57,7 @@ const PagerComp = ({numberOfPages, ...props}) => {
         <li>
           <button
             onClick={handleNextbtn}
-            disabled={currentPage == pages[pages.length - 1] ? true : false}
+            disabled={currentPage === pages[pages.length - 1] ? true : false}
             className="pagerarrow"
           >
             <i className="fas fa-angle-right"></i>
