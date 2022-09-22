@@ -2,7 +2,6 @@ ul.pageNumbers {
     display: flex;
     float: left;
     list-style-type: none;
-    text-decoration: underline;
     border: none;
     color: #A9A9A9;  /* dark grey */
     text-align: center;
@@ -15,12 +14,23 @@ ul.pageNumbers {
 .pagernumbers {
     padding: 4px 5px; /* top/bottom right/left */
     margin: 0px 4px; /* top/bottom right/left */
+    border: none;
+    background-color: #FFFFFF; /* white */
+    font-size: 16px;
+    color: #A9A9A9; /* dark grey */
+    cursor: pointer;
+    font-weight: bold;
 }
 
 li.active {
     background-color: #4791F1; /* blue */
     color: #FFFFFF;  /* white */
     border-radius: 0.2rem;
+}
+
+li.active button {
+    background-color: #4791F1;
+    color: #FFFFFF;
 }
 
 button.pagerarrow {

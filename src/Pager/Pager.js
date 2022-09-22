@@ -5,7 +5,7 @@ import PagerComp from "components/Pager/PagerComp";
 const Pager = () => {
   return(
     <Panel>
-      <PagerComp></PagerComp>
+      <PagerComp numberOfPages="10"></PagerComp>
     </Panel>
   )
 };
