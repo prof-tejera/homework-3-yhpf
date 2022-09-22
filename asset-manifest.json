@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/homework-3-yhpf/static/css/main.d545a663.css",
+    "main.js": "/homework-3-yhpf/static/js/main.547bd03f.js",
+    "index.html": "/homework-3-yhpf/index.html",
+    "main.d545a663.css.map": "/homework-3-yhpf/static/css/main.d545a663.css.map",
+    "main.547bd03f.js.map": "/homework-3-yhpf/static/js/main.547bd03f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d545a663.css",
+    "static/js/main.547bd03f.js"
+  ]
+}
