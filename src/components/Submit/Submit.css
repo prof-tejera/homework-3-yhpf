@@ -1,0 +1,29 @@
+.submit {
+    background-color: #4791F1; /* blue */
+    border: none;
+    border-radius: 0.2rem;
+    color: #FFFFFF;  /* white */
+    padding: 0.5rem 1rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 1rem 0rem 1rem 6.9rem;/* top right bottom left*/
+    cursor: pointer;
+    font-weight: normal;
+}
+
+.submit:hover {
+    background-color: #00008B; /* navy blue */
+    border: none;
+    border-radius: 0.2rem;
+    color: #FFFFFF;  /* white */
+    padding: 0.5rem 1rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 1rem 0rem 1rem 6.9rem;/* top right bottom left*/
+    cursor: pointer;
+    font-weight: normal;
+}
